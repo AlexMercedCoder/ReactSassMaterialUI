@@ -1,8 +1,14 @@
-# SIMPLE REACT TEMPLATE
+# SASS ROUTER CONTEXT MATERIALUI TEMPLATE
 
 #### Created by Alex Merced of AlexMercedCoder.com/devNursery.com
 
-This is a minimalistic webpack react build. Best for practicing react, doesn't have many of the testing and post-processing features other builds have. Although you can add webpack and babel plugins as you wish if you want to use this as a starting place for a more powerful build setup.
+This react template uses webpack as a bundler and...
+
+- Has router configured
+- Pre-Made Header and Footer Components
+- GlobalContext for managing App level state (just import GlobalContext from App and the useContext hook to access the global state)
+- Sass is configured, you can use the already existing styles.scss as your global stylesheet or do whatever you want
+- MaterialUI React Component Library Installed, example of its use in the header component, refer to MaterialUI documentation for its use.
 
 Make sure to remove the git repository
 
